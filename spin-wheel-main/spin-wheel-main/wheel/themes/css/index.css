@@ -41,7 +41,14 @@ body {
 
 .gui-wrapper {
   padding: 10px;
-  background-color: #f3f3f3;
+  background-color: darkblue;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.gui-wrapper2 {
+  padding: 10px;
+  background-color: goldenrod;
   display: flex;
   flex-direction: column;
   gap: 10px;

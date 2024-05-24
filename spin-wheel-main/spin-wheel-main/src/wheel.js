@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 import * as util from './util.js';
 import * as Constants from './constants.js';
 import {Defaults} from './constants.js';
@@ -525,6 +526,7 @@ export class Wheel {
     // Stop rotation once speed reaches 0.
     // Otherwise the wheel could rotate in the opposite direction next frame.
     if ((this._rotationDirection === 1 && newRotationSpeed < 0) || (this._rotationDirection === -1 && newRotationSpeed >= 0)) {
+      window.alert('You have Won !!');
       return 0;
     }
 

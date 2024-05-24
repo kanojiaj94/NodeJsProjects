@@ -35,7 +35,7 @@ const preamble = [
   `/**\n`,
   ` * ${p.name} (${format.toUpperCase()}) v${p.version}\n`,
   ` * ${p.homepage}\n`,
-  ` * Copyright (c) ${p.author} ${util.dateFormat (new Date (), '%Y')}.\n`,
+  ` * Copyright (c) ${p.author}.\n`,
   ` * Distributed under the ${p.license} license.\n`,
   ` */`,
 ];

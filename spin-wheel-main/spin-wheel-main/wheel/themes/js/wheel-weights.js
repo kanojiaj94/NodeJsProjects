@@ -3,21 +3,21 @@ import {AlignText} from '../../../src/constants.js';
 export const props = [
 
   {
-    name: 'BlackAndWhiteWheel',
+    name: 'Wheel',
     radius: 0.75,
     itemLabelRadius: 0.95,
     itemLabelRadiusMax: 0.75,
     itemLabelRotation: 180,
     itemLabelAlign: AlignText.left,
-    itemLabelColors: ['green'],
+    itemLabelColors: ['yellow', 'green'],
     itemLabelBaselineOffset: -0.07,
-    itemLabelFont: 'roboto',
-    itemLabelFontSizeMax: 25,
+    itemLabelFont: 'arial bold',
+    itemLabelFontSizeMax: 30,
     itemBackgroundColors: ['black', 'white' ],
     rotationSpeedMax: 500,
     rotationResistance: -100,
-    lineWidth: 1,
-    lineColor: '#fff',
+    lineWidth: 10,
+    lineColor: 'black',
     image: './img/wheel-center.svg',
     overlayImage: './img/background.svg',
     items: [
