@@ -1092,7 +1092,7 @@ export class Wheel {
             label: item.label,
             labelColor: item.labelColor,
             value: item.value,
-            weight: item.weight, // weights of the items
+            weight: 1, // weights of the items ( visually all the slices look equal size)
           }));
         }
         return v;
